@@ -3,7 +3,7 @@
 
 ---
 
-<p>Compiler Lab - 1</p>
+<p>Compiler Lab - 2</p>
 <ol>
 <li>Created a file called num.l</li>
 <li>Added lines of code to print the number and string and the length for both:<br>
