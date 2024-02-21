@@ -3,7 +3,7 @@
 
 ---
 
-<p>Compiler Lab - 2</p>
+<h2 id="compiler-lab---2">Compiler Lab - 2</h2>
 <ol>
 <li>Created a file called num.l</li>
 <li>Added lines of code to print the number and string and the length for both:<br>
