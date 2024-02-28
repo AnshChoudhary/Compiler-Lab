@@ -60,6 +60,11 @@ printf("Number of lines: %d\n", num_lines);
 return 0;  
 }
 </code></pre>
+<p>To run the file:</p>
+<pre><code>lex word_char_line_counter.l
+gcc lex.yy.c -o word_char_line_counter -ll
+./word_char_line_counter &lt; input_file.txt
+</code></pre>
 <h3 id="question-3">Question 3</h3>
 <p>Modify the above LEX program so that a word and its characters are counted only if its length is greater than or equal to 6.</p>
 <pre><code>%{  
@@ -84,6 +89,11 @@ printf("Number of characters in words with length &gt;= 6: %d\n", num_chars);
 printf("Number of lines: %d\n", num_lines);  
 return 0;  
 }
+</code></pre>
+<p>To run the file:</p>
+<pre><code>lex word_char_line_counter_modified.l
+gcc lex.yy.c -o word_char_line_counter_modified -ll
+./word_char_line_counter_modified &lt; input_file.txt
 </code></pre>
 <h3 id="question-4">Question 4</h3>
 <p>Write a LEX program to print if the input is an odd number or an even number along with its length. Also, the program should check the correctness of the input (i.e. if the input is one even number and one odd number).</p>
